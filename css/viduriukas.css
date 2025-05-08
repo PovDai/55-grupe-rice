@@ -1,0 +1,25 @@
+.viduriuko-pagrindas{
+
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+
+}
+.main-kairys-konteineris{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    width: 50%;
+}
+.main-desinys-konteineris{
+    width: 60%;
+}
+.desinys-teksto{
+    width: 60%;
+    height: 40%;
+}
+.h3-apacia{
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}

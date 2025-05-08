@@ -1,0 +1,16 @@
+.end{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.end-virsus{
+    width: 100%;
+    height: 50%;
+    background-color: #3C3EAF;
+}
+.end-apacia{
+    width: 100%;
+    height: 50%;
+}

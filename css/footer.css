@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #5F5FB5;
+    padding-bottom: 20px;
+}
+.footer-h1{
+    font-weight: none;
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+
+}
+.footer-tekstas{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 40%;
+    color: #ABABEB;
+}
+
+.footer-kainos{
+    display: flex;
+    gap: 150px;
+    text-align: center;
+}
+.label{
+    text-decoration: underline;
+}
