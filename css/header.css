@@ -98,3 +98,10 @@ padding: 10px;
 .antras-tekstas:hover{
     color: red;
 }
+.ryziai{
+        border-radius: 50%; /* Apvalus paveiksliukas */
+        filter: drop-shadow(-50px 30px 10px rgba(0, 0, 0, 0.2));
+    }
+    .lapas{
+        height: 25%;
+    }
