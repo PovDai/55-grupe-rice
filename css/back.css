@@ -1,0 +1,24 @@
+.end-virsu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+
+}
+.email-container {
+    display: inline-block;
+    position: relative;
+  }
+  .email-input {
+    padding: 15px;
+    padding-right: 180px; /* Vieta tekstui ir ikonai */
+  }
+  .get-started {
+    color: blue;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Kad neblokuotų įvesties į input */
+  }
