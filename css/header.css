@@ -17,6 +17,9 @@ header{
     font-weight: bold;
     font-size: 11px;
 }
+.mygtukai>a:hover{
+    color:red;
+}
 .nav-button{
  letter-spacing: -1px;
 padding: 10px;
@@ -75,7 +78,10 @@ padding: 10px;
     letter-spacing: -1px;
     font-weight: none;
 }
-.fa-free-code-camp{
+.apacia-h3:hover{
+    color: red;
+}
+.viduriukas{
     text-decoration: none;
     background-color: #5E60AD;
     color: white;
@@ -83,4 +89,12 @@ padding: 10px;
     border-radius: 25px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.raudonas-kaireje-header:hover{
+    background-color: #5E60AD;
+    color: red;
+
+}
+.antras-tekstas:hover{
+    color: red;
 }

@@ -23,3 +23,6 @@ align-items: center;
     margin-bottom: 15px;
     letter-spacing: -1px;
 }
+.h3-apacia:hover{
+    color: red;
+}

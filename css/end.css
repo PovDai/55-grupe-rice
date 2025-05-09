@@ -9,8 +9,93 @@
     width: 100%;
     height: 50%;
     background-color: #3C3EAF;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
-.end-apacia{
-    width: 100%;
-    height: 50%;
+
+@media (max-width: 900px) {
+    .container {
+      width: 600px;
+      flex-direction: column;
+      }
+    }
+    @media (max-width: 700px) {
+        .container {
+          width: 300px;
+          flex-direction: column;
+     
+          }
+        }
+        @media (max-width: 500px) {
+            .container {
+              padding-left: 20px;
+              padding-right: 20px;
+            }
+        }
+
+
+      .email-container {
+          display: inline-block;
+          position: relative;
+        }
+        .email-input {
+          padding: 15px;
+          padding-right: 200px; /* Vieta tekstui ir ikonai */
+        }
+        .get-started {
+          color: blue;
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          pointer-events: none; /* Kad neblokuotų įvesties į input */
+        }
+      .darzoves-back{
+        height: 50%;
+      }
+      .get-started:hover{
+        color: red;
+      }
+      .salotos{
+        width: 18%;
+        height: 70%;
+      }
+      .back-h2{
+        padding-top: 10px;
+        color:#F7FAFF;
+  
+      }
+      .iconos-back{
+        display: flex;
+        width: 15%;
+        text-align: center;
+      }
+      .end{
+        text-decoration: none;
+      }
+      .fa-circle{
+        color: orange;
+      }
+      .fa-caret-left{
+        color: #9BE0CE;
+      }
+      .fa-caret-right{
+        color:#9BE0CE;
+      }
+      .fa-caret-left:hover{
+        color:red;
+      }
+      .fa-caret-right:hover{
+        color:red;
+      }
+    .email-input:hover{
+     background-color: cadetblue;
+    }
+
+.email-container:hover .email-input,
+.email-container:hover .get-started {
+    color: red;
 }
+
+

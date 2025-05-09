@@ -10,7 +10,9 @@
     font-size: 30px;
     color: whitesmoke;
     margin-bottom: 30px;
-
+}
+.footer-h1:hover{
+    color: red;
 }
 .footer-tekstas{
     text-align: center;
@@ -26,4 +28,7 @@
 }
 .label{
     text-decoration: underline;
+}
+.icon:hover{
+    color: red;
 }
